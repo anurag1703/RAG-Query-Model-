@@ -10,19 +10,8 @@ import numpy as np
 import subprocess
 import sys
 
-import subprocess
-import sys
-import spacy
-
-# Check for spaCy model and download if needed
-try:
-    nlp = spacy.load('en_core_web_sm')
-except OSError:
-    # Download the model if not found
-    subprocess.run([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
-    nlp = spacy.load('en_core_web_sm')
-
 # Load sentence transformer model
+nlp = spacy.load('en_core_web_sm')
 embedding_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
 
 # Faiss index class
