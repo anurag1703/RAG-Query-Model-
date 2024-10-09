@@ -5,4 +5,4 @@ sentence-transformers
 googletrans
 langdetect
 streamlit
-spacy==3.8.2
+spacy
