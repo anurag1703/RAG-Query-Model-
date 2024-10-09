@@ -1,8 +1,8 @@
-pytesseract 
+pytesseract
 pdfplumber
-faiss-cpu 
-sentence-transformers 
-googletrans 
-langdetect 
-streamlit 
-spacy
+faiss-cpu
+sentence-transformers
+googletrans
+langdetect
+streamlit
+spacy==3.8.2
