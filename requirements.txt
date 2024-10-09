@@ -1,0 +1,8 @@
+pytesseract 
+pdfplumber
+faiss-cpu 
+sentence-transformers 
+googletrans 
+langdetect 
+streamlit 
+spacy
